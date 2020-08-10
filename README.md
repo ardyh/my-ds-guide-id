@@ -34,7 +34,7 @@ Memang kedengeran susah, dan emang susah, tapi disinilah inti artikel ini: membe
 
 Data science luas karena masalah yang tercakup didalamnya sangat banyak. Tapi secara umum, kita bisa bikin cluster-cluster untuk permasalahan yang dibahas dalam data science, terutama terkait competitive data science:
 
-### Pembagian Berdasarkan tipe data yang umum dimainin
+### Pembagian Berdasarkan bentuk data yang umum dimainin
 
 1. Tabular Data \
    Maksudnya, data disimpen dalam suatu bentuk tabel. Tipe ini yang paling mudah dibayangin prosesnya dan recommended buat yang baru masuk ke data science untuk main disini dulu. \
@@ -52,22 +52,42 @@ Data science luas karena masalah yang tercakup didalamnya sangat banyak. Tapi se
    Contoh kompetisi for beginner: 
    - [Detecting Fraud Tweets](https://www.kaggle.com/c/nlp-getting-started)
 
+
+### Pembagian berdasarkan tipe pembelajaran
+1. Supervised Learning
+   Supervised learning adalah tipe pembelajaran ketika model/algoritma mempelajari pola dari data yang sudah berlabel. Tipe pembelajaran ini adalah yang paling sering dimanfaatkan pada competitive data science. Ibaratnya kita "mengajari" model untuk membedakan bunga mawar, melati dan bugenvil dengan cara memberi gambar masing-masing bunga beserta namanya. Setelah model dirasa sudah cukup bisa mengenali karakteristik dari bunga-bunga ini maka kita bisa main tebak-tebakan dengan model ini dengan memberinya gambar tanpa diberi nama.
+
+   Supervised learning biasanya terasosiasi dengan beberapa permasalahan populer di machine learning yaitu:
+   * Regression: meminta model untuk memprediksi nilai kontinu
+   * Clasification: meminta model untuk memprediksi nilai diskrit
+  
+2. Unsupervised Learning
+   Unsupervised learning adalah tipe pembelajaran ketika model/algoritma mempelajari pola dari data yang tidak memiliki label. Ibaratnya kita ditempatkan di satu ruangan bersama 100 orang yang belum kita kenal, kemudian kita diminta untuk mencari kesamaan masing-masing dan membentuk grup sebanyak n. Setelah terbentuk kelompok akhirnya kita baru tau nih Kelompok A ternyata kumpulan penonton drakor, Kelompok B ternyata fans berat Atta Halilintar, dan Kelompok C ternyata kumpulan orang yang tidak punya kesamaan dengan kelompok lainnya.
+
+   Unsupervised learning biasanya terasosiasi dengan beberapa permasalahan"
+   * Clustering: mengelompokkan data berdasarkan kemiripan
+   * Anomaly Detection: mendeteksi keabnormalan/ hal ganjil dari data
+   * Association: mencari item lain yang terasosiasi dengan item tertentu
+
+3. Reinforcement Learning
+   Reinforcement learning adalah tipe pembelajaran ketika model/algoritma/agen hanya diberikan sebuah goal dan reward tanpa diberi tahu bagaimana mencapai cara mencapai goal tersebut. Model hanya diberikan sekumpulan langkah-langkah yang boleh dilakukan dan akan mendapatkan reward apabila langkah yang dipilih menuju/mendekati goal. Sebaliknya apabila langkah yang diambil justru menjauhi goal maka agen/model diberikan punishment. Ibaratnya seperti bermain game, ketika kita berhasil menyelesaikan level maka kita akan mendapat badge sedangkan ketika kita melakukan langkah yang salah maka permainan akan berakhir.
+
 # **Technical Skills Checklist**
 
 ## **Technical Prerequisite**
 Skill-skill penting yang dibutuhin sebelum masuk ke skill spesifik data science
 
-### 1. Basic Programming 
+### 1. Basic Programming
 Ini esensial banget. Bukan berarti 100% dalam data science ngoding ya, tapi Jangan masuk dulu ke data science kalo topik dasar pemrograman kayak *if-else*, *looping*, *function and procedures*, belom terlalu lancar, karena **eratnya hubungan antara data science dan programming**. Bahkan topik yang intermediate di programming seperti *object oriented programming* juga *good to have* buat lebih mudah ngerti dokumentasi dari tools-tools. Karena tanpa programming kita gak akan bisa jalan terlalu jauh
 
-Buat milih bahasa, kalo mau main data tabular bisa pake R atau Python. Kalo mau tipe data yang lain, support buat Python jauh lebih kuat. Jadi penulis pribadi nyaranin Python aja 
+Buat milih bahasa, kalo mau main data tabular bisa pake R atau Python. Kalo mau tipe data yang lain, support buat Python jauh lebih kuat. Jadi penulis pribadi nyaranin Python aja
 
 #### Dimana Belajarnya?
-- [Codecademy](https://www.codecademy.com/) 
+- [Codecademy](https://www.codecademy.com/)
 - Youtube videos, cari: "introduction to Python", dan yang semisal
 - Google
-   
-### 2. Basic Math
+
+### 2. Basic Math & Statistics
 Basic math disini setidaknya ngerti operasi matriks, dan statistik dasar kayak *mean*, *standard deviation*, dsb. Gunanya itu buat ngerti konsep-konsep dasar dan supaya ketika nyusun solusi, bisa punya gambaran besar cara kerjanya gimana, bukan cuma numpuk tools doang hehe 
 
 > Dari 2 skill diatas, penulis pribadi simpulin kalo rata-rata lulusan SMA udah cukup untuk mulai masuk ke Data Science, asal udah bisa ngoding. 
@@ -117,6 +137,11 @@ Kita perlu tau secara garis besar cara kerja suatu model machine learning, supay
 - [Kaggle Learn](http://kaggle.com/learn)
 - [StatQuest Youtube Channel](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
 - [Machine Learning Mastery Blog](https://machinelearningmastery.com/)
+
+### 4. Data Science Workflow
+Setelah memahami konsep-konsep model machine learning maupun langkah-langkah pemrosesan data, kita perlu tau juga step-step yang biasanya dilakukan oleh para Data Scientist dari awal sampai akhir secara end-to-end. Framework paling umum yang digunakan namanya CRISP-DM. Untuk belajar lebih lanjut bisa dibaca [disini](http://www.kuliahkomputer.com/2018/07/crisp-dm.html)
+
+<img src="crisp-dm.png">
 
 # **Softskills Checklist**
 Data science sangat luas dan berhubungan dengan banyak ketidakpastian, dan dalam medan seperti itu, ada **softskill-softskill** tertentu yang berguna untuk kita miliki, disamping hardskill, ketika menyelesaikan suatu problem: 
