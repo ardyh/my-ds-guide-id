@@ -140,8 +140,8 @@ Kita perlu tau secara garis besar cara kerja suatu model machine learning, supay
 
 ### 4. Data Science Workflow
 Setelah memahami konsep-konsep model machine learning maupun langkah-langkah pemrosesan data, kita perlu tau juga step-step yang biasanya dilakukan oleh para Data Scientist dari awal sampai akhir secara end-to-end. Framework paling umum yang digunakan namanya CRISP-DM. Untuk belajar lebih lanjut bisa dibaca [disini](http://www.kuliahkomputer.com/2018/07/crisp-dm.html)
+<div style="text-align:center"><img src="crisp-dm.png"></div>
 
-<img src="crisp-dm.png">
 
 # **Softskills Checklist**
 Data science sangat luas dan berhubungan dengan banyak ketidakpastian, dan dalam medan seperti itu, ada **softskill-softskill** tertentu yang berguna untuk kita miliki, disamping hardskill, ketika menyelesaikan suatu problem: 
@@ -164,7 +164,7 @@ Note: Jangan salah, copas kode itu sangat biasa ya hehe, cuman paling nggak coba
 
 # **(Possible) Learning Flow**
 
-![](https://imgur.com/lHddwdt)
+<div style="text-align:center"><img src="possible-learning-flow-ds.jpg"></div>
 
 Data science punya banyak sekali pintu masuk, dan penulis sendiri juga percaya kalo cara belajar setiap orang sebaiknya *personalized* untuk orang tersebut. Tapi bagian ini ditulis cuma sebagai masukan, untuk menghapus sedikit kebingungan, buat mereka yang masih belum ada bayangan sama sekali dari mana mau mulai.
 
