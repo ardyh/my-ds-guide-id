@@ -4,7 +4,7 @@ Data Science itu luas, dan banyak yang bingung mau mulai masuk dari mana. Artike
 
 ## **Data Science?**
 
-Aku yakin gak sedikit dari pembaca yang gak kebayang data science itu ngapain. Mungkin cuma pernah denger istilahnya aja karena dari booming. Oke, kita liat istilah formalnya:
+Aku yakin gak sedikit dari pembaca yang gak kebayang data science itu ngapain. Mungkin cuma pernah denger istilahnya aja karena lagi booming. Oke, kita liat istilah formalnya:
 
 > Data science is an **inter-disciplinary** field that uses scientific methods, processes, algorithms and systems to **extract knowledge and insights** from many structural and unstructured data.
 > 
@@ -15,7 +15,7 @@ Intinya ada 2: *inter-disciplinary*, sama *extracting knowledge and insight*. Ja
 
 ## **Case Examples**
 
-Biar gak ngawang, dibawah ada beberapa contoh data science problem statements:
+Biar gak ngawang, di bawah ada beberapa contoh data science problem statements:
 
 1. Given records of ticket transactions for the past month, predict how many extra tickets will be booked everyday for the next week
 
@@ -25,19 +25,19 @@ Biar gak ngawang, dibawah ada beberapa contoh data science problem statements:
 
 4. Given an image, build an image segmentation algorithm to find all the same landmarks in the image
 
-cari lebih banyak contoh di: [Kaggle](kaggle.com), [DrivenData](drivendata.org), platform kompetisi lain
+cari lebih banyak contoh di: [Kaggle](kaggle.com), [DrivenData](drivendata.org), dan platform kompetisi lain
 
 
-Memang kedengeran susah, dan emang susah, tapi disinilah inti artikel ini: memberikan sedikit kepedean buat pembaca untuk nyobain bidang ini 
+Memang kedengeran susah, dan emang susah, tapi di sini lah inti artikel ini: memberikan sedikit kepedean buat pembaca untuk nyobain bidang ini 
 
 ## **Tipe-Tipe Task/Problem**
 
-Data science luas karena masalah yang tercakup didalamnya sangat banyak. Tapi secara umum, kita bisa bikin cluster-cluster untuk permasalahan yang dibahas dalam data science, terutama terkait competitive data science:
+Data science luas karena masalah yang tercakup di dalamnya sangat banyak. Tapi secara umum, kita bisa bikin cluster-cluster untuk permasalahan yang dibahas dalam data science, terutama terkait competitive data science:
 
 ### Pembagian Berdasarkan bentuk data yang umum dimainin
 
 1. Tabular Data \
-   Maksudnya, data disimpen dalam suatu bentuk tabel. Tipe ini yang paling mudah dibayangin prosesnya dan recommended buat yang baru masuk ke data science untuk main disini dulu. \
+   Maksudnya, data disimpen dalam suatu bentuk tabel. Tipe ini yang paling mudah dibayangin prosesnya dan recommended buat yang baru masuk ke data science untuk main di sini dulu. \
    Contoh kompetisi for beginner: 
    - [Titanic](https://www.kaggle.com/c/titanic)
    - [House Price Prediction](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
@@ -54,14 +54,14 @@ Data science luas karena masalah yang tercakup didalamnya sangat banyak. Tapi se
 
 
 ### Pembagian berdasarkan tipe pembelajaran
-1. Supervised Learning
+1. Supervised Learning  
    Supervised learning adalah tipe pembelajaran ketika model/algoritma mempelajari pola dari data yang sudah berlabel. Tipe pembelajaran ini adalah yang paling sering dimanfaatkan pada competitive data science. Ibaratnya kita "mengajari" model untuk membedakan bunga mawar, melati dan bugenvil dengan cara memberi gambar masing-masing bunga beserta namanya. Setelah model dirasa sudah cukup bisa mengenali karakteristik dari bunga-bunga ini maka kita bisa main tebak-tebakan dengan model ini dengan memberinya gambar tanpa diberi nama.
 
    Supervised learning biasanya terasosiasi dengan beberapa permasalahan populer di machine learning yaitu:
    * Regression: meminta model untuk memprediksi nilai kontinu
    * Clasification: meminta model untuk memprediksi nilai diskrit
   
-2. Unsupervised Learning
+2. Unsupervised Learning  
    Unsupervised learning adalah tipe pembelajaran ketika model/algoritma mempelajari pola dari data yang tidak memiliki label. Ibaratnya kita ditempatkan di satu ruangan bersama 100 orang yang belum kita kenal, kemudian kita diminta untuk mencari kesamaan masing-masing dan membentuk grup sebanyak n. Setelah terbentuk kelompok akhirnya kita baru tau nih Kelompok A ternyata kumpulan penonton drakor, Kelompok B ternyata fans berat Atta Halilintar, dan Kelompok C ternyata kumpulan orang yang tidak punya kesamaan dengan kelompok lainnya.
 
    Unsupervised learning biasanya terasosiasi dengan beberapa permasalahan"
@@ -82,19 +82,19 @@ Ini esensial banget. Bukan berarti 100% dalam data science ngoding ya, tapi Jang
 
 Buat milih bahasa, kalo mau main data tabular bisa pake R atau Python. Kalo mau tipe data yang lain, support buat Python jauh lebih kuat. Jadi penulis pribadi nyaranin Python aja
 
-#### Dimana Belajarnya?
+#### Di mana Belajarnya?
 - [Codecademy](https://www.codecademy.com/)
 - Youtube videos, cari: "introduction to Python", dan yang semisal
 - Google
 
 ### 2. Basic Math & Statistics
-Basic math disini setidaknya ngerti operasi matriks, dan statistik dasar kayak *mean*, *standard deviation*, dsb. Gunanya itu buat ngerti konsep-konsep dasar dan supaya ketika nyusun solusi, bisa punya gambaran besar cara kerjanya gimana, bukan cuma numpuk tools doang hehe 
+Basic math di sini setidaknya ngerti operasi matriks, dan statistik dasar kayak *mean*, *standard deviation*, dsb. Gunanya itu buat ngerti konsep-konsep dasar dan supaya ketika nyusun solusi, bisa punya gambaran besar cara kerjanya gimana, bukan cuma numpuk tools doang hehe 
 
-> Dari 2 skill diatas, penulis pribadi simpulin kalo rata-rata lulusan SMA udah cukup untuk mulai masuk ke Data Science, asal udah bisa ngoding. 
+> Dari 2 skill di atas, penulis pribadi simpulin kalo rata-rata lulusan SMA udah cukup untuk mulai masuk ke Data Science, asal udah bisa ngoding. 
 > 
 > Berarti kalo secara timeline ITB, rata-rata mahasiswa ITB bisa mulai di semester 2 TPB.
 
-#### Dimana Belajarnya?
+#### Di mana Belajarnya?
 - SMA
 - [StatQuest Youtube Channel](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
 - Googling
@@ -103,29 +103,29 @@ Basic math disini setidaknya ngerti operasi matriks, dan statistik dasar kayak *
 Skill-skill penting yang perlu dipelajari ketika udah mulai masuk ke data science
 
 ### 1. Data Analysis Tools
-Tool-tool buat analisis data. Diantaranya:
+Tool-tool buat analisis data. Di antaranya:
 - Pandas Library for Python
 - R Programming Language 
 
-2 tool diatas sangat valuable karena berbasis programming, jadi cukup powerful untuk handle berbagai macam sumber data. Tapi bisa dipertimbangkan juga yang berbasis app seperti:
+2 tool di atas sangat valuable karena berbasis programming, jadi cukup powerful untuk handle berbagai macam sumber data. Tapi bisa dipertimbangkan juga yang berbasis app seperti:
 
 - Excel
 - Tableau 
 
-Tools-tools diatas terutama penting banget ketika ngerjain data tabular. Dan berhubung TPB semester 1 udah diajarin pandas, itu udah jadi foundation yg sangat bagus utk mulai
+Tools-tools di atas terutama penting banget ketika ngerjain data tabular. Dan berhubung TPB semester 1 udah diajarin pandas, itu udah jadi foundation yg sangat bagus utk mulai
 
-#### Dimana Belajarnya?
+#### Di mana Belajarnya?
 - [Kaggle Learn](http://kaggle.com/learn)
 - [DataQuest](https://www.dataquest.io/)
 - [DataCamp](https://www.datacamp.com/)
 
 ### 2. Basic Data Preprocessing Concepts
-Proses apa aja yang dilakuin ke sebuah data. Diantara contoh istilahnya:
+Proses apa aja yang dilakuin ke sebuah data. Di antara contoh istilahnya:
 - Data Cleansing
 - Null value handling
 - Outlier handling
 
-#### Dimana Belajarnya?
+#### Di mana Belajarnya?
 - [Kaggle Learn](http://kaggle.com/learn)
 - [DataQuest](https://www.dataquest.io/)
 - [DataCamp](https://www.datacamp.com/)
@@ -133,18 +133,18 @@ Proses apa aja yang dilakuin ke sebuah data. Diantara contoh istilahnya:
 ### 3. Basic Machine Learning Model Concepts
 Kita perlu tau secara garis besar cara kerja suatu model machine learning, supaya kita bisa milih preprocessing data yang tepat untuk model itu, dan gimana caranya kita mainin (tuning) algoritmanya untuk ngasih performa optimal. Gak harus ngerti sedalem-dalemnya, cuman mungkin sebatas sampai bisa jelasin secara umum model itu gimana cara kerjanya.
 
-#### Dimana Belajarnya?
+#### Di mana Belajarnya?
 - [Kaggle Learn](http://kaggle.com/learn)
 - [StatQuest Youtube Channel](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
 - [Machine Learning Mastery Blog](https://machinelearningmastery.com/)
 
 ### 4. Data Science Workflow
-Setelah memahami konsep-konsep model machine learning maupun langkah-langkah pemrosesan data, kita perlu tau juga step-step yang biasanya dilakukan oleh para Data Scientist dari awal sampai akhir secara end-to-end. Framework paling umum yang digunakan namanya CRISP-DM. Untuk belajar lebih lanjut bisa dibaca [disini](http://www.kuliahkomputer.com/2018/07/crisp-dm.html)
+Setelah memahami konsep-konsep model machine learning maupun langkah-langkah pemrosesan data, kita perlu tau juga step-step yang biasanya dilakukan oleh para Data Scientist dari awal sampai akhir secara end-to-end. Framework paling umum yang digunakan namanya CRISP-DM. Untuk belajar lebih lanjut bisa dibaca [di sini](http://www.kuliahkomputer.com/2018/07/crisp-dm.html)
 <div style="text-align:center"><img src="crisp-dm.png"></div>
 
 
 # **Softskills Checklist**
-Data science sangat luas dan berhubungan dengan banyak ketidakpastian, dan dalam medan seperti itu, ada **softskill-softskill** tertentu yang berguna untuk kita miliki, disamping hardskill, ketika menyelesaikan suatu problem: 
+Data science sangat luas dan berhubungan dengan banyak ketidakpastian, dan dalam medan seperti itu, ada **softskill-softskill** tertentu yang berguna untuk kita miliki, di samping hardskill, ketika menyelesaikan suatu problem: 
 
 ## **a. Semangat Eksplorasi dan Belajar Mandiri** 
 #### **"Apa yang belum aku tahu? Metode apa yang belum dipakai?"**
@@ -157,7 +157,7 @@ Sebagai bidang yang sangat luas, data science sering punya topik-topik baru yang
 Semangat eksplorasi ada baiknya dibarengi dengan keraguan yang proporsional. Gak bisa setiap kali kita tau suatu metode baru, kemudian kita terapkan metode tersebut kepada setiap problem. Hal ini karena **setiap data, dan setiap problem mempunyai karakteristik yang berbeda**. Bahkan untuk task yang sama, misalkan memprediksi demand barang, jika tipe data dari dua buah problem berbeda, maka kita bisa aja butuh metode pemrosesan data yang berbeda, dan sangat mungkin pakai model yang berbeda. Bagaimana kita menerapkan softskill ini, bergantung kepada softskill yang ketiga.
 
 ## **c. Passion Untuk Memahami Konsep**
-#### **"Ini maksudnya gimana ya? Bisa dipake dimana ya?"**
+#### **"Ini maksudnya gimana ya? Bisa dipake di mana ya?"**
 
 Untuk tau apakah suatu metode cocok untuk suatu persoalan, kita perlu paham secara garis besar **bagaimana metode itu bekerja**, dan **untuk tipe persoalan seperti apa** dia baiknya. Hal ini menuntut kita untuk selalu 'penasaran' tentang cara kerja dari suatu metode/library/framework yang baru kita pelajari. Gak cuma belajar cara memakai/ngodingnya saja, atau bahkan cuma copas kodenya saja. \
 Note: Jangan salah, copas kode itu sangat biasa ya hehe, cuman paling nggak coba dimengerti apa maksud kodenya
@@ -197,7 +197,7 @@ Lomba-lomba yang bisa diikuti:
    - JOINTS (UGM)
    - ITToday (IPB)
   
-  Untuk HMIF ITB, bisa cari berbagai lomba yang *up-to-date* di [link ini](https://bit.ly/informasiLombaHMIF) ya, termasuk diantaranya lomba data science. Masuknya harus pake email *std.stei*
+  Untuk HMIF ITB, bisa cari berbagai lomba yang *up-to-date* di [link ini](https://bit.ly/informasiLombaHMIF) ya, termasuk di antaranya lomba data science. Masuknya harus pake email *std.stei*
 
 ### **3. Cari Sumber-Sumber untuk Menyelesaikan Lomba atau Proyek**
 
@@ -205,7 +205,7 @@ Biasanya suatu lomba atau proyek punya topik/arah yang jelas. Misalkan yang satu
 
 ### **4. Repeat #1**
 
-3 Tahap diatas kita ulang ulang lagi dengan ngerjain problem dan kompetisi yang bervariasi.
+3 Tahap di atas kita ulang-ulang lagi dengan ngerjain problem dan kompetisi yang bervariasi.
 
 # **Other Great Resources**
 
@@ -221,7 +221,7 @@ Sumber untuk latihan, berupa ide projek, kompetisi, task-task, dan dataset
 -  [MLContests](https://mlcontests.com/)
   
 ### 2. Course
-Course bisa dianggap kayak kuliah: ada materi, ada tugas, ada nilai. Diantara keuntungan course adalah pembelajaran yang terstruktur
+Course bisa dianggap kayak kuliah: ada materi, ada tugas, ada nilai. Di antara keuntungan course adalah pembelajaran yang terstruktur
 - [Coursera](https://www.coursera.org/) \
   Popular Courses
   - [Machine Learning by Stanford University's Andrew Ng](https://www.coursera.org/learn/machine-learning)
