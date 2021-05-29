@@ -259,3 +259,10 @@ Bisa dibilang sumber informasi yang spesifik banget terhadap suatu task. Atau, b
 Akhir kata, semoga guide ini bisa membantu. Gak perlu takut dan mikir "apa aku punya talent yang cukup ya?". Karena kebanyakan yang menghalangi itu bukan "kurang talent", tapi distraksi-distraksi kayak "social media", "YouTube", "Netflix", dan apapun lah itu macamnya. Motivasi dan disiplin lebih penting dalam proses belajar dibanding talent.
 
 Terimakasih, dan selamat belajar!
+
+# **Special Thanks to**
+- Ahmad Izzan
+- Christian Wibisono
+- Ilham Firdausi Putra
+
+as our first contributors! 
