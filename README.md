@@ -328,9 +328,12 @@ Akhir kata, semoga guide ini bisa membantu. Gak perlu takut dan mikir "apa aku p
 
 Terima kasih dan selamat belajar!
 
-# **Special Thanks to**
+# **Ucapan Terima Kasih**
 - Ahmad Izzan
 - Christian Wibisono
 - Ilham Firdausi Putra
-
-as our first contributors! 
+   
+Sebagai kontributor-kontributor awal! 
+   
+- CnC HMIF ITB sebagai pendorong pertama ditulisnya artikel ini
+- Seluruh kontributor langsung maupun tak langsung di repository ini
