@@ -23,17 +23,17 @@ Intinya ada 2: *inter-disciplinary* dan *extracting knowledge and insight*. Jadi
 
 Biar gak ngawang, di bawah ada beberapa contoh dari ***Data Science Problem Statements***:
 
-1. *Given records of ticket transactions for the past month. \
-Predict how many extra tickets will be booked everyday for the next week.*
+1. *Given records of ticket transactions for the past month, \
+predict how many extra tickets will be booked everyday for the next week.*
 
-2. *Given pictures of product and their category. \
-Build an automatic categorizer of product pictures.*
+2. *Given pictures of product and their category, \
+build an automatic categorizer of product pictures.*
 
-3. *Given a number of texts and their category (containing explicit content or not). \
-Build an automatic categorizer for unlabeled texts.*
+3. *Given a number of texts and their category (containing explicit content or not), \
+build an automatic categorizer for unlabeled texts.*
 
-4. *Given a set of images. \
-Build an image segmentation algorithm to find all the same landmarks.*
+4. *Given a set of images, \
+build an image segmentation algorithm to find all the same landmarks.*
 
 Cari contoh lainnyaa di [Kaggle](https://www.kaggle.com), [DrivenData](https://www.drivendata.org), [MachineHack](https://www.machinehack.com/), [Analytics Vidhya](https://www.analyticsvidhya.com/), dan platform kompetisi lain.
 
@@ -100,7 +100,7 @@ Memang kedengeran susah, dan emang susah, tapi di sini lah inti artikel ini, yak
    
    Ibaratnya, kita ditempatkan di satu ruangan bersama dengan 100 orang yang belum kita kenal, kemudian kita diminta untuk mencari kesamaan masing-masing dan membentuk grup sebanyak n. Setelah terbentuk kelompok, akhirnya kita baru tau nih Kelompok A ternyata kumpulan penonton drakor, Kelompok B ternyata fans berat Atta Halilintar, dan Kelompok C ternyata kumpulan orang yang tidak punya kesamaan dengan kelompok lainnya.
 
-   Unsupervised learning biasanya terasosiasi dengan beberapa permasalahan"
+   Unsupervised learning biasanya terasosiasi dengan beberapa permasalahan:
    - **Clustering**: mengelompokkan data berdasarkan kemiripan
    - **Anomaly Detection**: mendeteksi keabnormalan atau hal ganjil dari data
    - **Association**: mencari item lain yang terasosiasi dengan item tertentu
@@ -134,7 +134,7 @@ Buat milih bahasa, kalo mau main data tabular bisa pake R atau Python. Kalo mau 
 
 ### **2. Basic Math & Statistics**
 
-*Basic Math* di sini setidaknya ngerti operasi matriks, dan **statistik dasar** kayak *mean*, *standard deviation*, dsb. Gunanya itu buat ngerti konsep-konsep dasar dan supaya ketika nyusun solusi, bisa punya gambaran besar cara kerjanya gimana, bukan cuma numpuk *tools* doang hehe 
+*Basic Math* di sini setidaknya ngerti operasi matriks, dan **statistik dasar** kayak *mean*, *standard deviation*, dsb. Gunanya buat ngerti konsep-konsep dasar dan agar ketika nyusun solusi, bisa punya gambaran besar cara kerjanya gimana, bukan cuma numpuk *tools* doang hehe 
 
 > Dari 2 skill di atas, penulis pribadi simpulin kalo rata-rata lulusan SMA udah cukup untuk mulai masuk ke *Data Science*, asal udah bisa ngoding. 
 
@@ -218,7 +218,7 @@ Semangat eksplorasi ada baiknya dibarengi dengan keraguan yang proporsional. Gak
 
 **"Ini maksudnya gimana ya? Bisa dipake di mana ya?"**
 
-Untuk tau apakah suatu metode cocok untuk suatu persoalan, kita perlu paham secara garis besar **bagaimana metode itu bekerja**, dan **untuk tipe persoalan seperti apa** dia baiknya. Hal ini menuntut kita untuk selalu '**penasaran**' tentang cara kerja dari suatu metode/library/framework yang baru kita pelajari. Gak cuma belajar cara memakai/ngodingnya saja, atau bahkan cuma **copas** kodenya saja. \
+Untuk tau apakah suatu metode cocok untuk suatu persoalan, kita perlu paham secara garis besar **bagaimana metode itu bekerja**, dan **untuk tipe persoalan seperti apa** dia baiknya. Hal ini menuntut kita untuk selalu '**penasaran**' tentang cara kerja dari suatu metode/library/framework yang baru kita pelajari. Gak cuma belajar cara memakai/ngodingnya saja, atau bahkan cuma **copas** kodenya saja.
 
 *Note*: Jangan salah, copas kode itu sangat biasa ya hehe, cuman paling nggak coba dimengerti apa maksud kodenya
 
