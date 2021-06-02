@@ -98,7 +98,7 @@ Memang kedengeran susah, dan emang susah, tapi di sini lah inti artikel ini, yak
 
    *Unsupervised Learning* adalah tipe pembelajaran ketika model atau algoritma mempelajari pola dari data yang tidak memiliki label. 
    
-   Ibaratnya, kita ditempatkan di satu ruangan bersama dengan 100 orang yang belum kita kenal, kemudian kita diminta untuk mencari kesamaan masing-masing dan membentuk grup sebanyak n. Setelah terbentuk kelompok, akhirnya kita baru tau nih Kelompok A ternyata kumpulan penonton drakor, Kelompok B ternyata fans berat Atta Halilintar, dan Kelompok C ternyata kumpulan orang yang tidak punya kesamaan dengan kelompok lainnya.
+   Ibaratnya, kita ditempatkan di satu ruangan bersama dengan 100 orang yang belum kita kenal, kemudian kita diminta untuk mencari kesamaan masing-masing dan membentuk grup sebanyak n. Setelah terbentuk kelompok, akhirnya kita baru tau nih Kelompok A ternyata kumpulan penonton video masak, Kelompok B ternyata kumpulan penonton video kucing, dan Kelompok C ternyata kumpulan orang yang tidak punya kesamaan dengan kelompok lainnya.
 
    Unsupervised learning biasanya terasosiasi dengan beberapa permasalahan:
    - **Clustering**: mengelompokkan data berdasarkan kemiripan
